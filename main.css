@@ -1,0 +1,224 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+html {
+    background-color: #96BF14;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #E7F1CA;
+    font-size: 11px;
+    width: 8in;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+a {
+    border: 0px;
+}
+
+header {
+    background-color: #1E4531;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1.25in;
+    text-transform: uppercase;
+    border-bottom: 13px #333 solid;
+}
+
+header h1 {
+    position: relative;
+    top: 40px;
+    left: 24px;
+    display: inline;
+    font-family: 'Cabin Sketch', arial, serif;
+    font-size: 30px;
+}
+header ul {
+   float: right;
+}
+header li {
+    display:inline-block;
+    height: .75in;
+    list-style-type: none;
+    padding: 24px;
+}
+
+header li#glenda {
+    position: relative;
+    top: 10px;
+    background-color: #11972e;
+    border-right: solid 3px #333;
+}
+
+header li#glenda:hover {
+    background-color: #E76310;
+}
+
+header li#jesse {
+    background-color: #11972e;
+}
+
+header li#jesse:hover {
+    background-color: #E76310;
+}
+
+header a {
+    color: #E7F1CA;
+    text-decoration: none;
+}
+
+section {
+    margin: 11px 0px;
+    padding: 24px;
+    background-color: #340420;
+}
+
+blockquote {
+    margin-left: 24px;
+    font-style: italic;
+}
+
+h2 {
+    fonr-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 25px 0px 3px 0px;
+}
+
+h3 {
+    line-height: 21px;
+}
+
+p {
+    line-height: 21px;
+    width: 5in;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-family: 'Cabin Sketch', arial, serif;
+}
+
+table {
+    padding: 11px;
+    font-size: 13px;
+    background-color: #086e57;
+    margin-top: 1in;
+}
+
+td {
+    /*border-bottom: 1px dotted #ccc;*/
+    background-position: top;
+    vertical-align: top;
+    line-height: 21px;
+    padding: 8px;
+}
+
+tr {
+    margin-bottom: 1in;
+}
+
+table a {
+    color: #fc7723;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+td.bottomborder {
+    border-bottom: #a4ad8c 1px dashed;
+}
+
+.bigNum {
+    font-size: 44px;
+    font-family: 'Cabin Sketch', arial, serif;
+    color: #a4ad8c;
+}
+
+#links {
+    position: fixed;
+    left: -1px;
+    top: 2.5in;
+    padding: 0px; 
+    width:265px;
+    background-color:transparent;
+}
+
+nav#classInfo{
+    float:left;
+    letter-spacing: .25em;
+    line-height: 23px;
+    padding: 22px; 
+    background-color: #222;
+}
+
+#links nav#classInfo a {
+    color: #E76310;
+    text-decoration: none;
+}
+
+#links nav#classInfo a:hover {
+    text-decoration: underline;
+}
+
+#links #arrow {
+    float:left;
+    width:36px;
+    height:36px;
+    margin-top:13px;
+    color: #E76310;
+}
+#links #arrow:hover{
+    cursor:pointer;
+}
+.end {}
+
+a.due {
+    text-decoration: underline;
+}
+
+ul.due {
+    margin-top:18px;
+}
+
+ul.due li {
+    font-style: italic;
+    padding-left: 18px;
+    color: #c7f33a;
+    margin-left: 24px;
+    text-indent: -24px;
+    list-style-type: none;
+}
+
+.topic {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #a4ad8c;
+}
+
+.note {
+    font-style: italic;
+    color: #c7f33a;
+    padding: 24px 10px;
+}
+.indent {
+    margin-left:10px;
+}

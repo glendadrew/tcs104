@@ -135,6 +135,7 @@ tr {
 table a {
     color: #fc7723;
     text-decoration: none;
+    font-weight: bold;
 }
 
 table a:hover {

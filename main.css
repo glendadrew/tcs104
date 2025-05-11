@@ -11,7 +11,7 @@ html {
 body {
     font-family: Verdana, Geneva, sans-serif;
     color: #E7F1CA;
-    font-size: 11px;
+    font-size: 13px;
     width: 8in;
     padding: 10px;
     margin: 10px auto;
@@ -19,7 +19,6 @@ body {
 
 a {
     border: 0;
-    font-weight: bold;
 }
 
 header {
@@ -134,7 +133,7 @@ tr {
 }
 
 table a {
-    color: #fc7723;
+    color: #f48540;
     text-decoration: none;
     font-weight: bold;
 }
